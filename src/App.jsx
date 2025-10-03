@@ -5,6 +5,7 @@ import Service from './Service'
 import AboutUs from './AboutUs'
 import Portfolio from './Portffolio'
 import ContactUs from './ContactUs'
+import Hook from './Hook'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <Portfolio />
       <ContactUs />
+      <Hook />
     </>
   )
 }

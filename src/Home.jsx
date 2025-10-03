@@ -37,12 +37,12 @@ function Home() {
                 </div>
             ))} */}
 
-            {data.map((category) => (
+            {/* {data.map((category) => (
                 <div key={category.id}>
                     <h2>Home category {category.name}</h2>
                     <img src={category.icon} alt={`category ${category.name}`} width='100' height='100' />
                 </div>
-            ))}
+            ))} */}
         </>
     )
 }
