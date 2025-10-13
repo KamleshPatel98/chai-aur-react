@@ -7,6 +7,7 @@ import Portfolio from './Portffolio'
 import ContactUs from './ContactUs'
 import Hook from './Hook'
 import BgColorChange from './projects/BgColorChange'
+import OtpGenerate from './projects/OtpGenerate'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <ContactUs />
       <Hook /> */}
 
-      <BgColorChange />
+      {/* <BgColorChange /> */}
+      <OtpGenerate />
     </>
   )
 }
