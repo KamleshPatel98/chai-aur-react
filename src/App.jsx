@@ -8,6 +8,7 @@ import ContactUs from './ContactUs'
 import Hook from './Hook'
 import BgColorChange from './projects/BgColorChange'
 import OtpGenerate from './projects/OtpGenerate'
+import Login from './auth/Login'
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       <Hook /> */}
 
       {/* <BgColorChange /> */}
-      <OtpGenerate />
+      {/* <OtpGenerate /> */}
+
+      <Login />
     </>
   )
 }
