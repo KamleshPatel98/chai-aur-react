@@ -15,12 +15,14 @@ function Login() {
                 password,
             });
 
-            console.log("Login success:", res.data);
+            console.log("Login success:", res.data.data.user);
 
             // token save
-            localStorage.setItem("token", res.data.token);
-            console.log("Token saved:", res.data.token);
-            console.log("data", res.data.data);
+            localStorage.setItem("token", res.data.data.user.token);
+            localStorage.setItem("user", JSON.stringify(res.data.data.user));
+
+            console.log("Token saved:", res.data.data.user.token);
+            console.log("data", res.data.data.user);
         } catch (error) {
             if(error.status == 422){
                 // validation error

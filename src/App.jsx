@@ -9,6 +9,7 @@ import Hook from './Hook'
 import BgColorChange from './projects/BgColorChange'
 import OtpGenerate from './projects/OtpGenerate'
 import Login from './auth/Login'
+import Dashboard from './admin/Dashboard'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       {/* <OtpGenerate /> */}
 
       <Login />
+      {/* <Dashboard /> */}
     </>
   )
 }
